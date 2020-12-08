@@ -7,6 +7,11 @@ TagManager:
   - normal
   - jump
   - floor
+  - hurt
+  - conveyor_right
+  - conveyor_left
+  - flip
+  - deadzone
   layers:
   - Default
   - TransparentFX

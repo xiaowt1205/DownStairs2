@@ -36,7 +36,7 @@ public class planeCreator : MonoBehaviour {
         Movement();
 
         if(CreatePlane == true){
-            Instantiate(planes[Random.Range(0,3)],transform.position,Quaternion.identity);
+            Instantiate(planes[Random.Range(0, planes.Length)],transform.position,Quaternion.identity);
             CreatePlane = false;
         }
 
